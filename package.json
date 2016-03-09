@@ -1,0 +1,26 @@
+{
+  "name": "node3mini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TXredking/node3mini.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TXredking/node3mini/issues"
+  },
+  "homepage": "https://github.com/TXredking/node3mini#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0"
+  }
+}
