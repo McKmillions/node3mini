@@ -1,0 +1,10 @@
+.citySelect{
+  width: 200px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.border{
+  border: 1px black solid;
+  width: 600px;
+}
