@@ -1,6 +1,7 @@
 {
   "cities":[{
-      "city": "Dallas",
+      "id":"1",
+      "name": "Dallas",
       "tempHigh": "64",
       "tempLow" : "58",
       "currentTemp": "58",
@@ -9,7 +10,8 @@
       "wind":"5 mph"
     },
     {
-      "city": "Houston",
+      "id":"2",
+      "name": "Houston",
       "tempHigh": "80",
       "tempLow" : "63",
       "currentTemp": "67",
@@ -18,7 +20,8 @@
       "wind":"12 mph"
     },
     {
-      "city": "Los Angeles",
+      "id":"3",
+      "name": "Los Angeles",
       "tempHigh": "73",
       "tempLow" : "54",
       "currentTemp": "65",
@@ -27,7 +30,8 @@
       "wind":"2 mph"
     },
     {
-      "city": "Seattle",
+      "id":"4",
+      "name": "Seattle",
       "tempHigh": "51",
       "tempLow" : "38",
       "currentTemp": "46",
@@ -36,7 +40,8 @@
       "wind":"19 mph"
     },
     {
-      "city": "Miami",
+      "id":"5",
+      "name": "Miami",
       "tempHigh": "80",
       "tempLow" : "70",
       "currentTemp": "75",
