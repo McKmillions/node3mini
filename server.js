@@ -11,10 +11,8 @@ app.use(bodyParser.json());
 
 
 app.get('/api/cities', mainCtrl.getCities);
-app.get('/api/cities/:id', mainCtrl.getCity);
+
 app.post('/api/cities', mainCtrl.postCity);
-app.put('/api/cities/:id', mainCtrl.updateCity);
-app.delete('/api/cities/:id', mainCtrl.deleteCity);
 
 
 
