@@ -12,7 +12,7 @@ var express = require('express'),
 app.use(bodyParser.json(), cors(), express.static(__dirname + '/public'));
 
 app.get('/api/cities', mainCtrl.getCities);
-
+app.get('/api/cities/:id', mainCtrl.getCity);
 
 
 
