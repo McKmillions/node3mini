@@ -1,17 +1,16 @@
-angular.module('weatherFabulous').controller('mainCtrl', function($scope, $http){
+angular.module('weatherFabulous').controller('mainCtrl', function($scope, $http, mainSvc){
 
   $scope.selectedCities = [];
 
   $scope.pushCities = function(city){
-    $scope.selectedCities.push(city);
+    // Push cities to selectedCities arry
   }
 
   $scope.getCities = function(){
-    $http.get('/api/cities').then(function(res){
-      console.log(res.data.cities)
-      $scope.cities = res.data.cities;
-    })
-  }();
+    // Get cities from the server
+  };
+
+  $scope.getCities();
 
 
 })
