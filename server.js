@@ -1,18 +1,20 @@
 var express = require('express'),
     app = express(),
-    port = process.env.PORT || 7777,
     bodyParser = require('body-parser'),
-    cors = require('cors');
     mainCtrl = require('./server-assets/controllers/mainCtrl'),
-    cities = require('./cities');
+    port = process.env.PORT || 7777;
+    // What else needs to be required?
 
-    // session = require('express-session');
 
-//Show what happens without express.static on index.html with chrome tools
-app.use(bodyParser.json(), cors(), express.static(__dirname + '/public'));
+//What will we be using besides bodyParser?
+app.use(bodyParser.json());
+
 
 app.get('/api/cities', mainCtrl.getCities);
 app.get('/api/cities/:id', mainCtrl.getCity);
+app.post('/api/cities', mainCtrl.postCity);
+app.put('/api/cities/:id', mainCtrl.updateCity);
+app.delete('/api/cities/:id', mainCtrl.deleteCity);
 
 
 
